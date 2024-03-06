@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding: 0%;
+}
+
+
+.main hr{
+  border: 2px solid red;
+}
+
+.left_pc .btn, .left_mobile .btn{
+  background-color: #DBDBDB;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+  display: block;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 12px;
+  text-align: center;
+  width: 250px;  
+}
+
+.left_pc .btn:hover{
+  background-color: #FFC5C5;
+}
+
+
+/* PC */
+@media screen and (min-width: 480px) {
+  .left_mobile{
+    display: none;
+  }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+.left_mobile{
+  display: flex;
+  height: 350px;
+  flex-wrap: wrap;
+}
+.left_pc{
+  display: none;
+}
+
+.left_mobile img{
+  width: 47%;
+  margin: 4px;
+  height: 130px;
+}
+}
+
+

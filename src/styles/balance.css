@@ -1,0 +1,155 @@
+.balance_name{
+    background-color: #FFC5C5;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    color: red;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+
+  .balance_name h6{
+    font-weight: 700;
+  }
+
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .balance_div{
+      background-color: #26C7ED;
+      margin: 0;
+      padding: 0;
+      border-radius: 6px;
+  }
+  .balance{
+    padding: 0 18px;
+}
+  }
+  
+  
+  /* pc */
+  @media screen and (min-width: 480px) {
+    .balance{
+      background-color: #26C7ED;
+      width: 320px;
+      margin-left: 25%;
+      border-radius: 6px;
+      /* padding: 0 10px; */
+  }
+  }
+  
+
+.actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+  
+.actions .btn{
+    background-color: #DBDBDB;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    width: 100%;  
+  }
+  
+  .actions .btn:hover{
+    background-color: #FFC5C5;
+  }
+  
+
+.feedbacks{
+    margin: 10px 0;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 95%;
+    height: 150px;
+    display: block;
+    resize: none;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.cancel_btn{
+    width: 90px;
+    background-color: #f00;
+    color: #000;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.name{
+  margin: auto;
+}
+
+.name input{
+  /* Border */
+  border-bottom-color: rgb(85, 85, 85);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+
+  border-left-color: rgb(85, 85, 85);
+  border-left-style: none;
+  border-left-width: 0px;
+
+  border-right-color: rgb(85, 85, 85);
+  border-right-style: none;
+  border-right-width: 0px;
+
+  border-top-color: rgb(85, 85, 85);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-style: none;
+  border-top-width: 0px;
+
+  /* Color and Text */
+  color: rgb(85, 85, 85);
+  cursor: text;
+  display: inline-block;
+  
+  font-weight: 400;
+  height: 28px;
+  letter-spacing: normal;
+  line-height: 28px;
+  outline-color: rgb(85, 85, 85);
+  outline-style: none;
+  scroll-behavior: auto;
+  text-align: start;
+  vertical-align: baseline;
+  width: 200px;
+}
+
+.name p{
+  color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+
+.ussd_btn, .recharge_btn{
+  width: 90px;
+  background-color: #f00;
+  color: #000;
+  border-radius: 8px;
+  border: 2px solid #fff;
+  height: 36px;
+}

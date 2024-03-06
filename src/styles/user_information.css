@@ -1,0 +1,41 @@
+.user_information_name{
+    background-color: #FFC5C5;
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    align-items: center;
+    text-align: center;
+    color: red;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+
+  .user_information_name h6{
+    font-weight: 700;
+  }
+
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    .user_information_div{
+      background-color: #26C7ED;
+      margin: 0;
+      padding: 0;
+      border-radius: 6px;
+  }
+  .user_information{
+    padding: 0 18px;
+}
+  }
+  
+  
+  /* pc */
+  @media screen and (min-width: 480px) {
+    .user_information{
+      background-color: #26C7ED;
+      width: 320px;
+      margin-left: 25%;
+      border-radius: 6px;
+      /* padding: 0 10px; */
+  }
+  }
+  
